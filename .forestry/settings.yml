@@ -21,6 +21,11 @@ sections:
   label: Contact
   create: none
   match: "*"
+- type: directory
+  path: Gallery
+  label: Gallery
+  create: all
+  match: "**/*"
 - type: document
   path: config.yaml
   label: Configuration
